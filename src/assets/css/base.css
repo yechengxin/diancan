@@ -1,0 +1,23 @@
+body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	overflow: hidden;
+}
+a {
+  color: #666;
+  text-decoration: none;
+}
+button {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: 0;
+  border-radius: 0;
+  background-color: transparent;
+  line-height: inherit;
+  width: max-content;
+}
+button:after {
+  border: none;
+}
